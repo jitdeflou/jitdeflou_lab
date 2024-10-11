@@ -58,14 +58,8 @@ h1 {
 }
 
 a {
-    color: rgb(0, 0, 0);
+    color: rgb(131, 228, 243);
     text-decoration: underline;
-    background-color: rgb(218, 117, 70);
-    border-radius: 30px;
-    padding: 10px; /* Reducir padding si es necesario */
-    border-style: dotted;
-    border-width: 10px;
-    border-color: rgb(241, 241, 62);
 }
 
 .two p {
