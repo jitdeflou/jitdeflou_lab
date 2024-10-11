@@ -1,36 +1,48 @@
 * {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 body {
-    background-color: rgb(20, 20, 20);
+    background-color: rgb(0, 0, 0);
+}
+
+.container {
+    text-align: center; /* Centrará el h1 en el contenedor */
+    padding-top: 70px; /* Añadir espacio superior si lo necesitas */
 }
 
 h1 {
     color: rgb(40, 40, 40);
-    background-color: rgb(77, 172, 141);
-    font-size: 80px;
-    border-radius: 35px;
+    background-color: rgb(218, 117, 70);
+    border-style: dotted;
+    border-width: 10px;
+    border-color: rgb(241, 241, 62);
+    border-radius: 60px;
+    font-size: 120px;
     text-align: center;
-    padding: 30px;
+    padding: 20px 180px; /* 20px para arriba/abajo, 50px para los lados */
+    display: inline-block; /* Mantén esto si quieres un ajuste al contenido */
+    margin: 0 auto; /* Centrará el h1 en su contenedor */
+    width: fit-content; /* Limita el ancho del contenido del h1 */
 }
 
 .one h2 {
-    color: beige;
+    color: rgb(255, 255, 255);
+
     padding: 30px;
     font-size: 40px;
 }
 
 .one p {
-    color: beige;
-    padding: 30px;
+    color: rgb(255, 255, 255);
+    padding-left: 30px;
     font-size: 23px; 
 }
 
 .one h3 {
-    color: beige;
+    color: rgb(255, 255, 255);
     text-align: center;
-    padding: 0%;
+    padding: 30px;
     font-size: 30px;
 }
 
@@ -38,28 +50,35 @@ h1 {
     display: block;  /* Para que el margin funcione */
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 37%;
     padding: 30px;
 }
 
 .two h2 {
-    color: beige;
+    color: rgb(255, 255, 255);
     padding: 30px;
     font-size: 40px;
 }
 
 a {
-color:rgb(185, 230, 109);
+color: rgb(0, 0, 0);
+text-decoration: underline;
+background-color: rgb(218, 117, 70);
+border-radius: 30px;
+padding: 30px;
+border-style: dotted;
+border-width: 10px;
+border-color: rgb(241, 241, 62);
 }
 
 .two p {
-    color: beige;
+    color: rgb(255, 255, 255);
     padding: 30px;
     font-size: 23px; 
 }
 
 .two h3 {
-    color: beige;
+    color: rgb(255, 255, 255);
     text-align: center;
     padding: 0%;
     font-size: 30px;
