@@ -48,6 +48,10 @@ h1 {
     font-size: 40px;
 }
 
+a {
+color:rgb(185, 230, 109);
+}
+
 .two p {
     color: beige;
     padding: 30px;
